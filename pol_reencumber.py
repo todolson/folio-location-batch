@@ -66,7 +66,8 @@ def parse_args():
     """Parse command line arguments and return a Namespace object."""
 
     parser = argparse.ArgumentParser(
-        description="Re-encumber funds on purchase order lines",
+        # description="Re-encumber funds on purchase order lines",
+        description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
